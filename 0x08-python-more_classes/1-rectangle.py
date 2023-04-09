@@ -13,13 +13,11 @@ class rectangle
         self.width=width
 
 
-    @property
     def define width(self):
 
         """ getter for the private instance attribute width
     """
     return self.__width
-    @width.setter
     def width(self value
         """ setter for private instance attribute width """
         if type(value) is not int
